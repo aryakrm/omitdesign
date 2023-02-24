@@ -1,11 +1,17 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./Home.scss";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
-    <div className="Home">
-      <Carousel fade>
+    <motion.div
+      className="Home"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 3 }}
+    >
+      <Carousel fade interval={2000}>
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -90,7 +96,7 @@ function Home() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </div>
+    </motion.div>
   );
 }
 

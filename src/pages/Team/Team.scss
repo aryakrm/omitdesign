@@ -1,0 +1,25 @@
+.Team {
+  position: static;
+  margin-top: 8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 6rem;
+  div {
+    &:first-of-type {
+      border-bottom: 1px dotted rgba($color: #000000, $alpha: 0.4);
+      padding-bottom: 5rem;
+    }
+    h3 {
+      font-weight: 700;
+    }
+  }
+  h1 {
+    border-bottom: 1px dotted rgba($color: #000000, $alpha: 0.4);
+    color: rgba($color: #000000, $alpha: 0.7);
+    font-weight: 800;
+  }
+}

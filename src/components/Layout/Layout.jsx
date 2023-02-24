@@ -1,6 +1,5 @@
 import React from "react";
 import Routers from "../../routes/Routers";
-import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 
 function Layout() {
@@ -10,7 +9,6 @@ function Layout() {
       <body>
         <Routers />
       </body>
-      <Footer />
     </>
   );
 }
