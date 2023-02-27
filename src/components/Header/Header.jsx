@@ -67,9 +67,9 @@ function Header() {
           </li>
 
           <li>
-            <NavLink to={"hire-us"}>
+            <NavLink to={"contact"}>
               {" "}
-              <h2>Hire Us</h2>{" "}
+              <h2>Contact</h2>{" "}
             </NavLink>
           </li>
           <li>
@@ -115,9 +115,10 @@ function Header() {
                 <li
                   key={project.id}
                   onClick={() => handleProjectClick(project)}
+                  className="side-projects"
                 >
                   <NavLink to={"/projects"}>
-                    <p>{project.name}</p>
+                    <p>+{project.name}</p>
                   </NavLink>
                 </li>
               ))}
@@ -130,9 +131,9 @@ function Header() {
               </li>
 
               <li>
-                <NavLink to={"hire-us"}>
+                <NavLink to={"contact"}>
                   {" "}
-                  <h2>Hire Us</h2>{" "}
+                  <h2>Contact</h2>{" "}
                 </NavLink>
               </li>
               <li>
@@ -156,7 +157,7 @@ function Header() {
           {projects.map((project) => (
             <li key={project.id} onClick={() => handleProjectClick(project)}>
               <NavLink to={"/projects"}>
-                <p>{project.name}</p>
+                <p>+{project.name}</p>
               </NavLink>
             </li>
           ))}

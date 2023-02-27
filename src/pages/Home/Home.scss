@@ -1,18 +1,36 @@
 .Home {
   width: 100vw;
   position: relative;
+  height: 100vh;
   .carousel {
+    height: 100%;
     .carousel-item {
-      width: 100vw;
       height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
       .carousel-caption {
-        background-color: rgba(0, 0, 0, 0.3);
-        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
         align-items: center;
+        font-family: altera;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Home {
+    height: 100vh;
+    .carousel {
+      .carousel-item {
+        .carousel-caption {
+          background-color: rgba(0, 0, 0, 0.3);
+          align-items: center;
+          font-family: altera;
+          font-weight: 700;
+        }
       }
     }
   }

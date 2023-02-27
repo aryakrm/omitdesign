@@ -2,16 +2,49 @@
   padding: 2rem;
   text-align: center;
   position: static;
-  margin-top: 5rem;
+  margin-top: 1rem;
   .title {
-    h3 {
+    text-align: left;
+    margin-top: -2rem;
+    margin-left: 4rem;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    font-family: altera;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h5 {
       font-weight: 700;
     }
   }
   div {
     margin: 1rem;
-    img {
-      border-radius: 20px;
+    .ant-image-mask {
+      background-color: transparent;
+      .ant-image-mask-info {
+      }
     }
+  }
+  .swiper-wrapper {
+    display: flex;
+    width: fit-content;
+    .swiper-slide {
+      width: 50rem;
+    }
+  }
+  .swiper-button-prev {
+    &::after {
+      color: white !important;
+    }
+  }
+  .swiper-button-next {
+    &::after {
+      color: white !important;
+    }
+  }
+  .swiper-pagination-bullet-active {
+    background-color: black;
   }
 }

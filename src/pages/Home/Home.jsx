@@ -15,84 +15,65 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/assets/homeBg/1.jpg"
+            src="/assets/projects/Park Joven - Murt Evi/1 (10).png"
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>Kaff Diamond</h3>
-            <p>Yalıkavak Marina</p>
+            <h3>BM Evi</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/assets/homeBg/2.png"
+            src="/assets/projects/Yalıkavak Marina - Kaff Diamond/2.jpg"
             alt="Second slide"
           />
 
           <Carousel.Caption>
+            <h3>Kaff Diamond</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="/assets/projects/YK Office/1 (4).JPG"
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>YK Office</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="/assets/projects/Bestekar Sokak - Pariba Cafe/cam08 (1).jpg"
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>Pariba Coffee</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="/assets/projects/Park Joven - Murt Evi/3 (1).png"
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>BM Evi</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="/assets/projects/Park Oran Ofis - La Pace Gym/1 (1).png"
+            alt="Third slide"
+          />
+          <Carousel.Caption>
             <h3>La Pace Gym</h3>
-            <p>Park Oran Ofis</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/assets/homeBg/3.png"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Pariba Cafe</h3>
-            <p>Bestekar Sokak</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/assets/homeBg/4.png"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Murt Evi</h3>
-            <p>Park Joven</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/assets/homeBg/5.png"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Murt Evi</h3>
-            <p>Park Joven</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/assets/homeBg/6.png"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Murt Evi</h3>
-            <p>Park Joven</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/assets/homeBg/7.png"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Murt Evi</h3>
-            <p>Park Joven</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

@@ -4,8 +4,37 @@ import { create } from "zustand";
 const projects = [
   {
     id: nanoid(),
-    name: "Pariba Cafe",
-    loc: "Bestekar Sokak",
+    name: "YK Office",
+    loc: "Maidan, Ankara 2022",
+    images: [
+      "/assets/projects/YK Office/1 (1).JPG",
+      "/assets/projects/YK Office/1 (2).JPG",
+      "/assets/projects/YK Office/1 (3).JPG",
+      "/assets/projects/YK Office/1 (4).JPG",
+      "/assets/projects/YK Office/1 (5).JPG",
+      "/assets/projects/YK Office/1 (6).JPG",
+      "/assets/projects/YK Office/1 (7).JPG",
+      "/assets/projects/YK Office/1 (9).JPG",
+      "/assets/projects/YK Office/1 (10).JPG",
+      "/assets/projects/YK Office/1 (11).JPG",
+      "/assets/projects/YK Office/1 (12).JPG",
+      "/assets/projects/YK Office/1 (13).JPG",
+
+      "/assets/projects/YK Office/1 (15).JPG",
+
+      "/assets/projects/YK Office/1 (17).JPG",
+      "/assets/projects/YK Office/1 (18).JPG",
+      "/assets/projects/YK Office/1 (19).JPG",
+
+      "/assets/projects/YK Office/1 (21).JPG",
+      "/assets/projects/YK Office/1 (22).JPG",
+      "/assets/projects/YK Office/1 (23).JPG",
+    ],
+  },
+  {
+    id: nanoid(),
+    name: "Pariba Coffee",
+    loc: "Çankaya, Ankara 2021",
     images: [
       "/assets/projects/Bestekar Sokak - Pariba Cafe/cam03 (1).jpg",
       "/assets/projects/Bestekar Sokak - Pariba Cafe/cam04.jpg",
@@ -29,8 +58,8 @@ const projects = [
   },
   {
     id: nanoid(),
-    name: "Altınel Evi",
-    loc: "Edit Lake Villaları",
+    name: "A.A Evi",
+    loc: "Edit Lake Villalari, Golbasi, Ankara 2022",
     images: [
       "/assets/projects/Edit Lake Villaları - Altınel Evi/Emir Oda/ODA_2 (1).PNG",
       "/assets/projects/Edit Lake Villaları - Altınel Evi/Kaan Oda/ODA_1 (1).PNG",
@@ -41,7 +70,6 @@ const projects = [
       "/assets/projects/Edit Lake Villaları - Altınel Evi/Emir Oda/ODA_2 (4).PNG",
       "/assets/projects/Edit Lake Villaları - Altınel Evi/Emir Oda/ODA_2 (5).PNG",
       "/assets/projects/Edit Lake Villaları - Altınel Evi/Emir Oda/ODA_2 (6).PNG",
-      "/assets/projects/Edit Lake Villaları - Altınel Evi/Emir Oda/ODA_2 (7).PNG",
       "/assets/projects/Edit Lake Villaları - Altınel Evi/Emir Oda/ODA_2 (8).PNG",
       "/assets/projects/Edit Lake Villaları - Altınel Evi/Emir Oda/ODA_2 (9).PNG",
       "/assets/projects/Edit Lake Villaları - Altınel Evi/Emir Oda/ODA_2_YENİ (2).PNG",
@@ -94,13 +122,11 @@ const projects = [
       "/assets/projects/Panora AVM - Luxo Diamond/DSCF9516.jpg",
       "/assets/projects/Panora AVM - Luxo Diamond/DSCF9518.jpg",
       "/assets/projects/Panora AVM - Luxo Diamond/DSCF9521.jpg",
-      "/assets/projects/Panora AVM - Luxo Diamond/DSCF9526.jpg",
-      "/assets/projects/Panora AVM - Luxo Diamond/DSCF9531.jpg",
     ],
   },
   {
     id: nanoid(),
-    name: "Murt Evi",
+    name: "B.M Evi",
     loc: "Park Joven",
     images: [
       "/assets/projects/Park Joven - Murt Evi/1 (1).png",
@@ -134,7 +160,7 @@ const projects = [
   {
     id: nanoid(),
     name: "La Pace Gym",
-    loc: "Park Oran Ofis",
+    loc: "Park Oran Ofis, Ankara 2022 ",
     images: [
       "/assets/projects/Park Oran Ofis - La Pace Gym/1 (1).png",
       "/assets/projects/Park Oran Ofis - La Pace Gym/1 (2).png",
@@ -147,8 +173,8 @@ const projects = [
   },
   {
     id: nanoid(),
-    name: "Cephe ve Peyzaj Tasarımı",
-    loc: "Sante Prime",
+    name: "Sante Prime",
+    loc: " Golbasi, Ankara. 2023 Facade and environmental design",
     images: [
       "/assets/projects/Sante Prime - Cephe ve Peyzaj Tasarımı - Kurumsal Kimlik Tasarımı/1 (1).png",
       "/assets/projects/Sante Prime - Cephe ve Peyzaj Tasarımı - Kurumsal Kimlik Tasarımı/1 (2).png",
@@ -172,7 +198,7 @@ const projects = [
   {
     id: nanoid(),
     name: "Kaff Diamond",
-    loc: "Yalıkavak Marina",
+    loc: "Yalıkavak Marina, Bodrum, Mugla 2020",
     images: [
       "/assets/projects/Yalıkavak Marina - Kaff Diamond/1.jpg",
       "/assets/projects/Yalıkavak Marina - Kaff Diamond/2.jpg",
@@ -187,7 +213,7 @@ const projects = [
   {
     id: nanoid(),
     name: "Luxo Diamond",
-    loc: "Yalıkavak Marina",
+    loc: "Yalikavak Marina, Marina, Bodrum, Mugla 2020",
     images: [
       "/assets/projects/Yalıkavak Marina - Luxo Diamond/1 (1).jpeg",
       "/assets/projects/Yalıkavak Marina - Luxo Diamond/1 (10).jpeg",
@@ -201,8 +227,6 @@ const projects = [
       "/assets/projects/Yalıkavak Marina - Luxo Diamond/1 (6).jpeg",
       "/assets/projects/Yalıkavak Marina - Luxo Diamond/1 (7).jpeg",
       "/assets/projects/Yalıkavak Marina - Luxo Diamond/1 (8).jpeg",
-      "/assets/projects/Yalıkavak Marina - Luxo Diamond/1 (9).jpeg",
-      "/assets/projects/Yalıkavak Marina - Luxo Diamond/1 (12).jpeg",
     ],
   },
 ];
