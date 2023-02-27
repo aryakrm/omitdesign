@@ -21,9 +21,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      width: 100%;
       img {
         width: 10%;
-        height: 30rem;
+        height: 25rem;
         margin-left: 0.5rem;
         -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
         filter: grayscale(100%);
@@ -51,6 +52,13 @@
 
 @media (max-width: 768px) {
   .Contact {
+    .contact {
+      .contactImages {
+        img {
+          height: 10rem;
+        }
+      }
+    }
     .address {
       .map {
         width: 80%;
