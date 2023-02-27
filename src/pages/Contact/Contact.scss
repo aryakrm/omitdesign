@@ -16,9 +16,21 @@
     align-items: center;
     padding-bottom: 2rem;
     border-bottom: 1px dotted rgba($color: #000000, $alpha: 0.5);
-    img {
-      width: 50%;
+    .contactImages {
       margin-bottom: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 10%;
+        height: 30rem;
+        margin-left: 0.5rem;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        &:hover {
+          filter: none;
+        }
+      }
     }
     a {
       display: flex;

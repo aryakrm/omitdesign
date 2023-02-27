@@ -14,7 +14,15 @@ function Contact() {
       transition={{ duration: 2 }}
     >
       <div className="contact">
-        <img src="/assets/Omit Design Branding.jpg" alt="Omit Design" />
+        <div className="contactImages">
+          <img src="/assets/contactImages/contact1.jpg" alt="img" />
+          <img src="/assets/contactImages/contact2.jpg" alt="img" />
+          <img src="/assets/contactImages/contact3.jpg" alt="img" />
+          <img src="/assets/contactImages/contact4.jpg" alt="img" />
+          <img src="/assets/contactImages/contact5.jpg" alt="img" />
+          <img src="/assets/contactImages/contact6.jpg" alt="img" />
+          <img src="/assets/contactImages/contact7.jpg" alt="img" />
+        </div>
         <h2>Omit Design</h2>
         <h6>
           {" "}
